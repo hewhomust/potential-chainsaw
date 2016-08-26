@@ -1,7 +1,16 @@
 # Proposal - Potential Chainsaw
 
-## Sub heading 1
+## Introduction
 
+## Concept
+
+## Team
+
+## Communications
+
+## Plan
+
+## Tags
 Something here
 
 ---
