@@ -7,7 +7,11 @@ Proposal uploaded Monday 5th September
 ## Introduction
 
 ## Concept
-Tentative concept ideas
+A website. Possibly companion app or site designed for mobile.
+
+### User Interaction
+Users must register to post/vote but anyone may view.
+Accounts may be created from Facebook/Google but display names should be semi-anonymous to encourage open discussion.
 
 ## Team
 
