@@ -10,6 +10,6 @@ Something else
 
 1. First thing
 2. Second thing
-..* Sub thing.
+  * Sub thing.
 3. Third thing
 
