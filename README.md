@@ -7,6 +7,7 @@ Proposal uploaded Monday 5th September
 ## Introduction
 
 ## Concept
+Tentative concept ideas
 
 ## Team
 
