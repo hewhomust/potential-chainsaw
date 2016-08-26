@@ -6,6 +6,8 @@ Proposal uploaded Monday 5th September
 
 ## Introduction
 
+To add: a way for users to display how an article/comment makes them feel (emotional) without making a text comment.
+
 ## Concept
 A website. 
 Each day, a new topic will be posted and a number (2-5) of articles on that topic/story will be selected for display.
