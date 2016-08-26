@@ -16,7 +16,7 @@ Tentative concept ideas
 ## Plan
 
 ## Tags
-Something here\edyt
+Something here
 
 ---
 
@@ -26,4 +26,4 @@ Something else
 2. Second thing
   * Sub thing.
 3. Third thing
-
+1. Next thing
