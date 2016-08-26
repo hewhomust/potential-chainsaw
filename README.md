@@ -15,6 +15,11 @@ Accounts may be created from Facebook/Google but display names should be semi-an
 
 ## Team
 
+Dean Langton - 42911067
+Clancy O'Reilly - 
+Nathan Squire - 
+Benjamin Pallay - 
+
 ## Communications
 
 ## Plan
