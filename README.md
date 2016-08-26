@@ -1,4 +1,4 @@
-# Proposal - Potential-chainsaw
+# Proposal - Potential Chainsaw
 
 ## Sub heading 1
 
