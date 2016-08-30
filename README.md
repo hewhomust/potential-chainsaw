@@ -5,13 +5,10 @@ Proposal uploaded Monday 5th September
 # Proposal - Potential Chainsaw
 
 ## Introduction
-
-To add: a way for users to display how an article/comment makes them feel (emotional) without making a text comment.
+Online news sources are abundant and highly convienient to the average user, but how can someone be sure about the level of bias present in what they are reading? We aim to compare articles side-by-side, in terms of reliability and bias.
 
 ## Concept
-A website. 
-Each day, a new topic will be posted and a number (2-5) of articles on that topic/story will be selected for display.
-The articles will be taken from popular news sources that represent a variety of socio/political leanings (rated using the economic/social progressive/consevative matrix). 
+We will deliver a news source pooling website, which focuses on comparing articles while delivering convienient news. Each day, a sinlge topic will be posted and a number of articles (2-5) on that topic/story will be selected for display. The articles will be taken from all kinds of news sources and rated by a variety of socio/political leanings (using the economic/social progressive/consevative matrix). Complex methods of discussion will be facilitated, including quoting parts of the article, emotional responses, and the ability to build comment threads in various places within an article, as well as a general thread at the end. After 24 hours has passed, the discussion is locked and no further changes can be made.
 
 ### User Interaction
 Users must register to post/vote but anyone may view.
@@ -21,23 +18,29 @@ User accounts will develop their own matrix rating as they vote/comment/are vote
 Articles are tagged/coloured/marked based upon what kind of users vote for them.
 Comments will be arranged based upon discussion contribution but will only compete with comments from similar matrix ratings (alternativley: only votes from similar ratings will count towards display order/score totals are seperated based on ideology). This allows users to be exposed to a variety of views while still encouraged positive contribution.
 
-
 ## Team
 
-  - Dean Langton - 42911067
+  - Dean Langton - Position - 42911067
 
-  - Clancy O'Reilly - 43709672
+  - Clancy O'Reilly - Position - 43709672
 
-  - Nathan Squire - 
+  - Nathan Squire - Designer - 4393042
 
-  - Benjamin Pallay - 
+  - Benjamin Pallay - Position - student number
 
 ## Communications
+The main form of communication within our team is Slack, which will be expected to be regularly checked. We will will also strive to communicate through github comments and zenhub, in order to make sure discussion is documented. For file sharing, we will primarily use github, as well as google drive where convienient.
 
 ## Plan
+Identify the key tasks that need to be completed and when. Identify:
+• Project phases e.g. research; requirements; design; construction;
+• Key deliverables for each phase (Milestones)2;
+• Resources – equipment or other tools/people you might need.
 
 ## Tags
-Something here
+Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g.
+awareness, Collaboration, CSCW) and 2 keywords related to journalism and News (e.g. Citizen
+Journalists, ...).
 
 ---
 
