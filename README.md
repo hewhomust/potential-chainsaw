@@ -12,7 +12,7 @@ Online news sources are abundant and highly convienient to the average user, but
 ## Concept
 We will deliver a news source pooling website, which focuses on comparing articles while delivering convienient news. Each day, a sinlge topic will be posted and a number of articles (2-5) on that topic/story will be selected for display. The articles will be taken from all kinds of news sources and rated by a variety of socio/political leanings (using the economic/social progressive/consevative matrix). Complex methods of discussion will be facilitated, including quoting parts of the article, emotional responses, and the ability to build comment threads in various places within an article, as well as a general thread at the end. After 24 hours has passed, the discussion is locked and no further changes can be made.
 
-### User Interaction
+## User Interaction
 Users must register to post/vote but anyone may view.
 Accounts may be created from Facebook/Google but display names should be semi-anonymous to encourage open discussion.
 Users can up and downvote each article on the topic bsaed upon their agreement with the presentation/language/opinion of the publisher. Users can also rate each others comments that are made on the topic.
