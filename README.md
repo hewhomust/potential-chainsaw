@@ -7,10 +7,12 @@ Proposal uploaded Monday 5th September
 # Proposal - Potential Chainsaw
 
 ## Introduction
-Online news sources are abundant and highly convienient to the average user, but how can someone be sure about the level of bias present in what they are reading? We aim to compare articles side-by-side, in terms of reliability and bias.
+Online news sources are abundant and highly convienient to the average user, but how can someone be sure about the level of bias present in what they are reading?
+They cannot, bias is inherent to every work.
+Instead we aim to acheive an awareness of bias in all stories and posts consumers read. By presenting articles side-by-side and clearly displaying the alignment of the person/people behind it, we hope to assist users in being conscious of what they are reading and broadly encourage the critical evaluation of media.
 
 ## Concept
-We will deliver a news source pooling website, which focuses on comparing articles while delivering convienient news. Each day, a sinlge topic will be posted and a number of articles (2-5) on that topic/story will be selected for display. The articles will be taken from all kinds of news sources and rated by a variety of socio/political leanings (using the economic/social progressive/consevative matrix). Complex methods of discussion will be facilitated, including quoting parts of the article, emotional responses, and the ability to build comment threads in various places within an article, as well as a general thread at the end. After 24 hours has passed, the discussion is locked and no further changes can be made.
+We will deliver a news source pooling website, which focuses on comparing articles while delivering convienient news. Each day, a single topic will be posted and a number of articles (2-5) on that topic/story will be selected for display. The articles will be taken from all kinds of news sources and rated by a variety of socio/political leanings (using the economic/social progressive/consevative matrix). Complex methods of discussion will be facilitated, including quoting parts of the article, emotional responses, and the ability to build comment threads in various places within an article, as well as a general thread at the end. After 24 hours has passed, the discussion is locked and no further changes can be made.
 
 ## User Interaction
 Users must register to post/vote but anyone may view.
