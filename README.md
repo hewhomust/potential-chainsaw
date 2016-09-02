@@ -29,20 +29,22 @@ Comments will be arranged based upon discussion contribution but will only compe
 
 ## Team
 
-  - Dean Langton - Position - 42911067
+  - Dean Langton - Position - 42911067 - IT 
 
-  - Clancy O'Reilly - Position - 43709672
+  - Clancy O'Reilly - Position - 43709672 - IT Coordination
 
-  - Nathan Squire - Designer - 4393042
+  - Nathan Squire - Designer - 4393042 - IT/Design
 
-  - Benjamin Pallay - Position - student number
+  - Benjamin Pallay - Position - student number - Computer Science
 
 ## Communications
 The main form of communication within our team is Slack, which will be expected to be regularly checked. We will will also strive to communicate through github comments and zenhub, in order to make sure discussion is documented. For file sharing, we will primarily use github, as well as google drive where convienient.
 
 ## Plan
-Identify the key tasks that need to be completed and when. Identify:
+Identify the key tasks that need to be completed and when. Identify: 
 • Project phases e.g. research; requirements; design; construction;
+Visual mockup -> Design Scheme
+Matrix types and implementation
 • Key deliverables for each phase (Milestones)2;
 • Resources – equipment or other tools/people you might need.
 
@@ -50,3 +52,9 @@ Identify the key tasks that need to be completed and when. Identify:
 Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g.
 awareness, Collaboration, CSCW) and 2 keywords related to journalism and News (e.g. Citizen
 Journalists, ...).
+
+
+# Feedback
+Ideas for Types of matricies/scales, possibly apolitical, positive vs negative language articles -> then rating users based upon progressive/conservative leanings
+
+Interaction ideas, methods of rating, implementation of scoring systems
