@@ -14,6 +14,8 @@ They cannot, bias is inherent to every work.
 Instead we aim to acheive an awareness of bias in all stories and posts consumers read. By presenting articles side-by-side and clearly displaying the alignment of the person/people behind it, we hope to assist users in being conscious of what they are reading and broadly encourage the critical evaluation of media.
 
 ## Concept
+We arent trying to produce the new all encompassing social media craze, more a hot-debate of the day that can brefiley engage users but also allow for extended reading into other viewpoints.
+
 We will deliver a news source pooling website, which focuses on comparing articles while delivering convienient news. Each day, a single topic will be posted and a number of articles (2-5) on that topic/story will be selected for display. The articles will be taken from all kinds of news sources and rated by a variety of socio/political leanings (using the economic/social progressive/consevative matrix). Complex methods of discussion will be facilitated, including quoting parts of the article, emotional responses, and the ability to build comment threads in various places within an article, as well as a general thread at the end. After 24 hours has passed, the discussion is locked and no further changes can be made.
 
 ## User Interaction
