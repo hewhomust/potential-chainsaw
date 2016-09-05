@@ -1,9 +1,3 @@
-Oral pitch in wk6 - Friday 2nd September
-
-Proposal uploaded Monday 5th September
-
----
-
 # Proposal - Potential Chainsaw
 
 ## Introduction
@@ -31,7 +25,7 @@ Comments will be arranged based upon discussion contribution but will only compe
 
 ## Team
 
-  - Dean Langton - Position - 42911067 - IT 
+  - Dean Langton - Programming - 42911067 - IT 
 
   - Clancy O'Reilly - Position - 43709672 - IT Coordination
 
