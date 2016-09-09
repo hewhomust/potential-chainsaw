@@ -39,8 +39,11 @@ The main form of communication within our team is Slack, which will be expected 
 ## Plan
 
 Planning and research - Up to week 7
+
 Digital interactive prototype - Week 7 to week 8
+
 Testing - Week 8
+
 Final product - Week 10?
 
 ## Tags
