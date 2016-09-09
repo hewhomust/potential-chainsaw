@@ -38,20 +38,20 @@ The main form of communication within our team is Slack, which will be expected 
 
 ## Plan
 
-Planning and research - Up to week 7
+Week 7 - Planning and research. Learn more about the fields we are working in and the market we are creating the project for.
 
-Digital interactive prototype - Week 7 to week 8
+Week 8 - Digital interactive prototype. Design a prototype with a full featured front end, and little or no backend, for the purpose testing.
 
-Testing - Week 8
+Week 9 - Testing. Perform user tests and heuristics to see where our application needs refining.
 
-Interim - Week 10
+Week 10 - Interim.
 
-Interim - Week 12
+Week 12 - Interim.
 
 Final Product - Week 13
 
 ## Tags
-Social, Discussion, Awareness, Mobile technologies, Collaboration, News aggregation, Social standings.
+Social, Discussion, Awareness, Mobile technologies, Collaboration, News aggregation, Social standings, Bias
 
 # Feedback
 Ideas for Types of matricies/scales, possibly apolitical, positive vs negative language articles -> then rating users based upon progressive/conservative leanings
