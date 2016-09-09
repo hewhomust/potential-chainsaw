@@ -31,7 +31,7 @@ Comments will be arranged based upon discussion contribution but will only compe
 
   - Nathan Squire - 4393042 - IT/Design
 
-  - Benjamin Pallay - student number - Computer Science
+  - Benjamin Pallay - 43221811 - Computer Science
 
 ## Communications
 The main form of communication within our team is Slack, which will be expected to be regularly checked. We will will also strive to communicate through github comments and zenhub, in order to make sure discussion is documented. For file sharing, we will primarily use github, as well as google drive where convienient.
