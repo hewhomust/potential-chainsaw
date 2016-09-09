@@ -44,7 +44,11 @@ Digital interactive prototype - Week 7 to week 8
 
 Testing - Week 8
 
-Final product - Week 10?
+Interim - Week 10
+
+Interim - Week 12
+
+Final Product - Week 13
 
 ## Tags
 Social, Discussion, Awareness, Mobile technologies, Collaboration, News aggregation, Social standings.
