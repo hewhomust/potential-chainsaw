@@ -25,13 +25,13 @@ Comments will be arranged based upon discussion contribution but will only compe
 
 ## Team
 
-  - Dean Langton - 42911067 - IT 
+  - Dean Langton - 42911067 - IT, Web development and programming
 
-  - Clancy O'Reilly - 43709672 - IT Coordination
+  - Clancy O'Reilly - 43709672 - IT, Research and coordination 
 
-  - Nathan Squire - 43930421 - IT/Design
+  - Nathan Squire - 43930421 - IT, Design and UI/UX
 
-  - Benjamin Pallay - 43221811 - Computer Science
+  - Benjamin Pallay - 43221811 - Computer Science, Back end and programming
 
 ## Communications
 The main form of communication within our team is Slack, which will be expected to be regularly checked. We will will also strive to communicate through github comments and zenhub, in order to make sure discussion is documented. For file sharing, we will primarily use github, as well as google drive where convienient.
@@ -40,9 +40,9 @@ The main form of communication within our team is Slack, which will be expected 
 
 Week 7 - Planning and research. Learn more about the fields we are working in and the market we are creating the project for, such as variables for the political spectrum matrix and social groups who have interests in political matters.
 
-Week 8 - Digital interactive prototype. Design a prototype with a full featured front end, and little or no backend, for the purpose testing. This might be done in invision, or as a simple web app in html, css, and javascript.
+Week 8 - Digital interactive prototype. Design a prototype with a full featured front end, and little or no backend, for the purpose testing. This might be done in invision, or as a simple web app in html, css, and javascript. We will begin a steady process of constructing the website and backend staring this week, leaving front end design elements to be tested in future weeks before implementation.
 
-Week 9 - Testing. Perform user tests and heuristics to see where our application needs refining.
+Week 9 - Testing. Perform user tests and heuristics to see where our application needs refining and if our compass rating system is consistent with personal beliefs.
 
 Week 10 - Interim. Design a second version, and get feedback.
 
