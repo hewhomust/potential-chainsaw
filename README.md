@@ -44,11 +44,11 @@ Week 8 - Digital interactive prototype. Design a prototype with a full featured 
 
 Week 9 - Testing. Perform user tests and heuristics to see where our application needs refining.
 
-Week 10 - Interim.
+Week 10 - Interim. Design a second version, and get feedback.
 
-Week 12 - Interim.
+Week 12 - Interim. Design a third version, and get feedback once again.
 
-Final Product - Week 13
+Week 13 - Final Product. Deliver the final product.
 
 ## Tags
 Social, Discussion, Awareness, Mobile technologies, Collaboration, News aggregation, Social standings, Bias
