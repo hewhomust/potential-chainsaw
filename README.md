@@ -29,7 +29,7 @@ Comments will be arranged based upon discussion contribution but will only compe
 
   - Clancy O'Reilly - 43709672 - IT Coordination
 
-  - Nathan Squire - 4393042 - IT/Design
+  - Nathan Squire - 43930421 - IT/Design
 
   - Benjamin Pallay - 43221811 - Computer Science
 
@@ -38,9 +38,9 @@ The main form of communication within our team is Slack, which will be expected 
 
 ## Plan
 
-Week 7 - Planning and research. Learn more about the fields we are working in and the market we are creating the project for.
+Week 7 - Planning and research. Learn more about the fields we are working in and the market we are creating the project for, such as variables for the political spectrum matrix and social groups who have interests in political matters.
 
-Week 8 - Digital interactive prototype. Design a prototype with a full featured front end, and little or no backend, for the purpose testing.
+Week 8 - Digital interactive prototype. Design a prototype with a full featured front end, and little or no backend, for the purpose testing. This might be done in invision, or as a simple web app in html, css, and javascript.
 
 Week 9 - Testing. Perform user tests and heuristics to see where our application needs refining.
 
