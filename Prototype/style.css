@@ -1,0 +1,21 @@
+td.chosen, td.chosen:hover{
+  background-color: #bbb;
+}
+
+td.average, td.average:hover, td.average.chosen, td.average.chosen:hover{
+  background-color: #444;
+}
+
+td:hover{
+  background-color: #ddd;
+}
+
+td{
+  height: 50px;
+  width: 50px;
+  background-color: #eee;
+}
+
+table{
+  margin: 100px auto;
+}
