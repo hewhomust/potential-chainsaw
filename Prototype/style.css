@@ -9,7 +9,7 @@ p{
 	text-align: center;
 	font-family: "Arial";
 	color: #555;
-	margin: 5px;
+	margin: 10px;
 }
 
 .side{
@@ -29,6 +29,15 @@ p{
 	width: 750px;
 	margin: 0 auto;
 }
+
+#buttons input{
+	width: 110px;
+}
+
+#button-labels td{
+	width: 110px;
+}
+
 td.chosen, td.chosen:hover{
   background-color: #bbb;
 }
