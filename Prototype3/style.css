@@ -1,0 +1,41 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	background-color: #eee;
+}
+
+#articleContainer{
+	background-color: #eee;
+}
+
+#discussionContainer{
+	background-color: #fff;
+}
+
+.container{
+	height: 600px;
+	width: 1300px;
+	margin: auto;
+	padding: 10px;
+}
+
+.standardBox{
+	width: 300px;
+	height: 400px;
+	margin: auto;
+	padding: 15px;
+}
+
+.article{
+	background-color: #fff;
+	box-shadow: 3px 3px 10px #ccc;
+	position: relative;
+}
+
+#mainArticle{
+	z-index: 1;
+	height: 450px;
+	top: 50px;
+	width: 400px;
+}
