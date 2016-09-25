@@ -31,6 +31,14 @@ body{
 	background-color: #fff;
 	box-shadow: 3px 3px 10px #ccc;
 	position: relative;
+	font-family: serif;
+	text-align: justify;
+}
+
+h1{
+	margin: 0px;
+	font-size: 1.8em;
+	font-weight: 100;
 }
 
 #mainArticle{
@@ -38,4 +46,29 @@ body{
 	height: 450px;
 	top: 50px;
 	width: 400px;
+}
+
+.discussion{
+	width: 95%;
+	height: auto;
+	margin: 0px 0px 0px 30px;
+	padding: 5px;
+}
+
+#discussionHeader{
+	height: 60px;
+}
+
+#discussionHeader h1{
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+#discussionHeader p{
+	float: right;
+	position: relative;
+	top: -25px;
+	right: 30px;
+	font-size: 1.3em;
 }
