@@ -31,12 +31,12 @@ p{
 	margin: 0 auto;
 }
 
-#buttons input{
+.buttons input{
 	width: 116px;
 	margin: 0;
 }
 
-#button-labels td{
+.button-labels td{
 	width: 200px;
 	text-align: center;
 }
