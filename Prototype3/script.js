@@ -9,4 +9,7 @@ $(document).ready(function(){
 		$("#mainArticle").children("h1").text(newH);
 		$("#mainArticle").children("p").text(newP);
     });
+	$("#discussionHeader").click(function(){
+		$(".discussion").toggle();
+    });
 });
