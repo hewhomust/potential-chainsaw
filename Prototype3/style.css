@@ -98,7 +98,7 @@ h1{
 	top: -25px;
 	right: 8%;
 	font-size: 1.3em;
-	color: #760B00;
+	color: #FF7267;
 }
 
 #header.headerBar p{
@@ -115,4 +115,8 @@ h1{
 
 .discussion .downvote, .discussion .upvote{
 	color: #BE0B00;
+}
+
+.discussion .username, .discussion .score{
+	color: #FF7267;
 }
