@@ -68,6 +68,11 @@ h1{
 	cursor: pointer;
 }
 
+.discussion.toggled{
+	border-left-width: 6px;
+	margin-left: 27px;
+}
+
 .discussion p{
 	display: inline;
 	margin-right: 15px;
@@ -121,4 +126,14 @@ h1{
 
 .discussion .username, .discussion .score{
 	color: #FF7267;
+}
+
+.noselect, .discussion p{
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
 }

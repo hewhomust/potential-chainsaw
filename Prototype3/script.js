@@ -21,6 +21,13 @@ $(document).ready(function(){
     */
 });
 
+function hideChildren(sibling){
+  if($(sibling).siblings().length > 4){
+    $(sibling).siblings().last().toggle();
+    $(sibling).parent().toggleClass('toggled');
+  }
+}
+
 function startTime() {
     var today = new Date();
     var hoursToGo = addZero(24 - today.getHours());
