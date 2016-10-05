@@ -9,12 +9,16 @@ $(document).ready(function(){
   		$("#mainArticle").children("h1").text(newH);
   		$("#mainArticle").children("p").text(newP);
     });
+    /*
     $("#discussionHeader").click(function(){
 		    $(".discussion").toggle();
     });
+    */
+    /*
     $(".discussion").click(function(){
         $(".discussion").children().toggle();
     });
+    */
 });
 
 function startTime() {
@@ -33,4 +37,11 @@ function addZero(n){
     n = "0" + n;
   }
     return n;
+}
+
+function upvote(upvoter, number){
+  console.log($(upvoter).siblings().next());
+  var score = $(upvoter).siblings().first().text();
+  var newScore = +score + +number;
+  $(upvoter).siblings().first().text(newScore);
 }

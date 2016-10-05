@@ -66,6 +66,11 @@ h1{
 	cursor: pointer;
 }
 
+.discussion p{
+	display: inline;
+	margin-right: 15px;
+}
+
 #discussionHeader{
 	height: 60px;
 }
@@ -102,4 +107,12 @@ h1{
 }
 
 #discussionHeader p{
+}
+
+.discussion .upvote{
+	margin-right: 0px;
+}
+
+.discussion .downvote, .discussion .upvote{
+	color: #BE0B00;
 }
