@@ -11,6 +11,7 @@ body{
 
 #discussionContainer{
 	background-color: #fff;
+	padding: 10px 20px;
 }
 
 #header{
@@ -40,6 +41,7 @@ body{
 	position: relative;
 	font-family: serif;
 	text-align: justify;
+	cursor: pointer;
 }
 
 h1{
@@ -56,11 +58,12 @@ h1{
 }
 
 .discussion{
-	width: 95%;
+	width: 90%;
 	height: auto;
 	margin: 30px;
 	padding: 0px 15px;
 	border-left: solid 3px #FF7267;
+	cursor: pointer;
 }
 
 #discussionHeader{
@@ -80,18 +83,23 @@ h1{
 }
 
 #header h1{
-	top: 5px;
+	top: -5px;
+	font-size: 3.5em;
 }
 
 #discussionHeader p, #header.headerBar p{
 	float: right;
 	position: relative;
 	top: -25px;
-	right: 30px;
+	right: 8%;
 	font-size: 1.3em;
 	color: #760B00;
 }
 
 #header.headerBar p{
-	top: -45px;
+	top: -60px;
+	cursor: pointer;
+}
+
+#discussionHeader p{
 }
