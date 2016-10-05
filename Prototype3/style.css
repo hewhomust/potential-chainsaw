@@ -86,7 +86,7 @@ h1{
 }
 
 #discussionHeader h1{
-	top: 26px;
+	top: 10px;
 }
 
 #header h1{
@@ -97,7 +97,7 @@ h1{
 #discussionHeader p, #header.headerBar p{
 	float: right;
 	position: relative;
-	top: -40px;
+	top: -53px;
 	right: 8%;
 	font-size: 1.6em;
 	color: #FF7267;
