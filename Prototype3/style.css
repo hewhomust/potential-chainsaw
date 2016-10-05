@@ -1,7 +1,7 @@
 body{
 	padding: 0px;
 	margin: 0px;
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	background-color: #BE0B00;
 }
 
@@ -12,6 +12,7 @@ body{
 #discussionContainer{
 	background-color: #fff;
 	padding: 10px 20px;
+	box-shadow: 0px -3px 10px #760B00;
 }
 
 #header{
@@ -39,9 +40,10 @@ body{
 	background-color: #fff;
 	box-shadow: 0px 3px 10px #760B00;
 	position: relative;
-	font-family: serif;
+	font-family: 'Lora', serif;
 	text-align: justify;
 	cursor: pointer;
+	overflow: hidden;
 }
 
 h1{
@@ -78,7 +80,7 @@ h1{
 .headerBar h1{
 	text-align: center;
 	position: relative;
-	font-family: calibri, sans-serif;;
+	/*font-family: calibri, sans-serif;;*/
 	color: #760B00;
 	font-size: 2.5em;
 }
@@ -89,20 +91,20 @@ h1{
 
 #header h1{
 	top: -5px;
-	font-size: 3.5em;
+	font-size: 3.3em;
 }
 
 #discussionHeader p, #header.headerBar p{
 	float: right;
 	position: relative;
-	top: -25px;
+	top: -40px;
 	right: 8%;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	color: #FF7267;
 }
 
 #header.headerBar p{
-	top: -60px;
+	top: -70px;
 	cursor: pointer;
 }
 
