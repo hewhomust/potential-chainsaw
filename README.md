@@ -57,3 +57,5 @@ Social, Discussion, Awareness, Mobile technologies, Collaboration, News aggregat
 Ideas for Types of matricies/scales, possibly apolitical, positive vs negative language articles -> then rating users based upon progressive/conservative leanings
 
 Interaction ideas, methods of rating, implementation of scoring systems
+
+Hello
