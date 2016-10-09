@@ -100,12 +100,14 @@ h1{
 }
 
 #discussionHeader p, #header.headerBar p{
-	float: right;
+	/* float: right; */
 	position: relative;
 	top: -53px;
-	right: 8%;
+	left: 75%;
+	width: 250px;
 	font-size: 1.6em;
 	color: #FF7267;
+	text-align: right;
 }
 
 #header.headerBar p{
@@ -128,7 +130,7 @@ h1{
 	color: #FF7267;
 }
 
-.noselect, .discussion p{
+.noselect, .discussion p, .matrixIcon{
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -khtml-user-select: none;    /* Konqueror */
@@ -142,6 +144,8 @@ h1{
 	float: right;
 	font-size: 2em;
   font-weight: 900;
+	right: 10px;
+	position: relative;
 }
 
 .articleHeading{
@@ -164,4 +168,31 @@ h1{
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 	border-bottom: 10px solid #FF7267;
+}
+
+
+/* Matrix things */
+
+td.chosen, td.chosen:hover{
+  background-color: #bbb;
+}
+
+td.average, td.average:hover, td.average.chosen, td.average.chosen:hover{
+  background-color: #444;
+}
+
+td:hover{
+  background-color: #ddd;
+}
+
+td{
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+table{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  float: left;
 }
