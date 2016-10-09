@@ -36,7 +36,7 @@ body{
 	padding: 15px;
 }
 
-.article{
+.article, #matrixContainer{
 	background-color: #fff;
 	box-shadow: 0px 3px 10px #760B00;
 	position: relative;
@@ -136,4 +136,32 @@ h1{
   -ms-user-select: none;       /* Internet Explorer/Edge */
   user-select: none;           /* Non-prefixed version, currently
                                   not supported by any browser */
+}
+
+.matrixIcon{
+	float: right;
+	font-size: 2em;
+  font-weight: 900;
+}
+
+.articleHeading{
+	display: inline;
+}
+
+#matrixContainer{
+	z-index: 5;
+	border-top: 3px solid #FF7267;
+	height: 300px;
+	overflow: visible;
+}
+
+.arrow-up {
+	position: relative;
+	top: -25px;
+	right: -290px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #FF7267;
 }

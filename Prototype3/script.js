@@ -1,3 +1,8 @@
+function start(){
+  startTime();
+  showMatrix();
+}
+
 $(document).ready(function(){
     $(".article").click(function(){
   		var newH = $(this).children("h1").text();
@@ -9,16 +14,6 @@ $(document).ready(function(){
   		$("#mainArticle").children("h1").text(newH);
   		$("#mainArticle").children("p").text(newP);
     });
-    /*
-    $("#discussionHeader").click(function(){
-		    $(".discussion").toggle();
-    });
-    */
-    /*
-    $(".discussion").click(function(){
-        $(".discussion").children().toggle();
-    });
-    */
 });
 
 function hideChildren(sibling){
@@ -51,4 +46,8 @@ function upvote(upvoter, number){
   var score = $(upvoter).siblings().first().text();
   var newScore = +score + +number;
   $(upvoter).siblings().first().text(newScore);
+}
+
+function showMatrix(){
+  $('#matrixContainer').toggle();
 }
