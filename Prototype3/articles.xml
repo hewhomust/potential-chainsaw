@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <articles>
 	<article>
-		<title>Article 1</title>
+		<title>Fires in Bratsenburg</title>
 		<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu massa lacus. Donec in urna quis nulla aliquet aliquam. Suspendisse eget velit posuere, mollis enim at, eleifend purus. Quisque vitae consequat lacus. Curabitur posuere erat rutrum, porttitor orci in, efficitur elit. Cras at augue sapien. Ut ex leo, gravida vel odio eu, vehicula interdum turpis. Nunc non molestie massa. Ut quis nisl diam. Donec sit amet porta risus. Vestibulum non sapien eros. Integer in sem sit amet turpis dignissim aliquam. Cras non ultricies nisl.</text>
 	</article>
 	<article>
-		<title>Article 2</title>
+		<title>Bratsenburg in flames</title>
 		<text>Nulla volutpat nulla at egestas eleifend. Sed ut nunc lacus. Ut porttitor ultrices tortor, sed maximus orci tincidunt sed. Praesent feugiat, ipsum a interdum mattis, massa sem interdum arcu, nec lacinia quam odio non eros. Curabitur sit amet gravida leo. Phasellus dignissim diam at suscipit blandit. Morbi interdum lacus nec tempus convallis. Cras ac metus non odio tempus gravida non nec leo. Sed vulputate consectetur velit, non pellentesque lorem tempus ac. Proin imperdiet, neque vehicula mollis blandit, diam nisi euismod eros, vel semper purus leo vel dolor. Fusce eu lobortis nunc, eu efficitur mi.</text>
 	</article>
 	<article>
-		<title>Article 3</title>
+		<title>City in terror</title>
 		<text>Ut porttitor ultrices tortor, sed maximus orci tincidunt sed. Praesent feugiat, ipsum a interdum mattis, massa sem interdum arcu, nec lacinia quam odio non eros. Curabitur sit amet gravida leo. Phasellus dignissim diam at suscipit blandit. Morbi interdum lacus nec tempus convallis. Cras ac metus non odio tempus gravida non nec leo. Sed vulputate consectetur velit, non pellentesque lorem tempus ac. Nulla volutpat nulla at egestas eleifend. Sed ut nunc lacus. Proin imperdiet, neque vehicula mollis blandit, diam nisi euismod eros, vel semper purus leo vel dolor. Fusce eu lobortis nunc, eu efficitur mi.</text>
 	</article>
 </articles>
