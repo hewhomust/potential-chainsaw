@@ -2,7 +2,7 @@ $(document).ready(function(){
 	var articleDoc = new XMLHttpRequest();
 	articleDoc.onreadystatechange = function(){
 		if(articleDoc.readyState == 4 && articleDoc.status == 200){
-			loadArticleXML(articleDoc);
+			loadArticlesXML(articleDoc);
 		}
 	};
 	articleDoc.open("GET", "articles.xml", true);
