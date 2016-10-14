@@ -192,7 +192,7 @@ a{
 	color: #760B00;
 }
 
-#loginForm{
+#loginForm, #userInfo{
 	font-family: 'Open Sans';
 	font-size: 1.5em;
 	color: #FF7267;
@@ -233,6 +233,17 @@ a{
 
 #user.show, #bar.show{
 	visibility: visible;
+}
+
+#userMatrixContainer{
+	position: relative;
+	right: -100px;
+}
+
+#userContainer{
+	height: 510px;
+	top: 50px;
+	width: 500px;
 }
 
 /* Matrix things */
