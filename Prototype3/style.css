@@ -182,6 +182,41 @@ h1{
 	top: -8px;
 }
 
+#loginTitle{
+	font-family: 'Open Sans';
+	color: #760B00;
+}
+
+#loginForm{
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+	color: #FF7267;
+	text-align: center;
+	margin-top: 75px;
+}
+
+#loginForm p{
+	margin: 0px;
+}
+
+#loginForm input{
+	font-family: 'Open Sans';
+	font-size: 0.8em;
+	color: #FF7267;
+	border: 0px solid black;
+	background-color: #ffe8e7;
+	margin-bottom: 30px;
+	text-align: center;
+	height: 30px;
+}
+
+#loginForm #loginButton{
+	cursor: pointer;
+	width: 100px;
+	background-color: #FF7267;
+  color: #ffe8e7;
+}
+
 
 /* Matrix things */
 
