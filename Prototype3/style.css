@@ -246,6 +246,23 @@ a{
 	width: 500px;
 }
 
+#commentInput {
+    font-family: 'Open Sans';
+    font-size: 0.8em;
+    border: 0px solid black;
+    height: auto;
+		width: 300px;
+		border-bottom: solid 3px #FF7267;
+}
+
+#newComment{
+	border-left: solid 3px #BE0B00;
+}
+
+#newComment .username a{
+	color: #BE0B00;
+}
+
 /* Matrix things */
 
 td.chosen, td.chosen:hover{
