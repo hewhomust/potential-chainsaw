@@ -250,17 +250,28 @@ a{
     font-family: 'Open Sans';
     font-size: 0.8em;
     border: 0px solid black;
-    height: auto;
-		width: 300px;
+		height: 20px;
+		width: 400px;
 		border-bottom: solid 3px #FF7267;
 }
 
 #newComment{
-	border-left: solid 3px #BE0B00;
+	border-left: solid 0px #BE0B00;
+	margin-left: 15px;
 }
 
 #newComment .username a{
-	color: #BE0B00;
+	/*color: #BE0B00;*/
+	cursor: pointer;
+	width: 161px;
+	background-color: #FF7267;
+	color: #ffe8e7;
+	margin-bottom: 5px;
+	padding: 4px 10px;
+}
+
+#newComment .username a:hover{
+	background-color: #BE0B00;
 }
 
 /* Matrix things */
