@@ -228,14 +228,6 @@ a{
 	font-size: 0.7em;
 }
 
-#user, #bar{
-	visibility: hidden;
-}
-
-#user.show, #bar.show{
-	visibility: visible;
-}
-
 #userMatrixContainer{
 	position: relative;
 	right: -100px;

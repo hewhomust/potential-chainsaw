@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php
+?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,25 +8,33 @@
     <link rel="icon" href="img/Union.png">
     <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans:300,400" rel="stylesheet">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="script.js" type="text/javascript"></script>
-	<script src="getArticles.js" type="text/javascript"></script>
+
   </head>
-  <body onLoad="start()">
+  <body>
     <div id="header" class="container headerBar">
       <img id="headerImage" src="img/Union.png"/>
       <h1>Union</h1>
-      <p><a href="index.html">Home</a></p>
+      <p><a href="index.php">Home</a></p>
     </div>
 	  <div id="articleContainer" class="container">
       <div id="mainArticle" class="article standardBox">
         <h1 id="loginTitle" class="articleHeading" >Login</h1>
         <a class="matrixIcon" onclick="showMatrix()">≡</a>
         <p id="mainArticleText" class="articleText"></p>
-        <form id="loginForm" action="index.html">
+        <form id="loginForm" method="post" action="checklogin.php">
           <p>Username</p>
-          <input id="username" type="text"/>
+          <input id="username" type="text" name="username"/>
           <p>Password</p>
-          <input id="password" type="text"/>
+          <input id="password" type="password" name="password"/>
+		  <?php
+		  
+		  session_start();
+		  if(isset($_SESSION['invalidlogin'])){
+			echo '<p>Username or Password is incorrect</p><br>';
+			unset($_SESSION['invalidlogin']);
+		  }
+		  
+		  ?>
           <p></p>
           <input id="loginButton" type="submit" value="Log In"/>
           <p class="smallerText">Or sign up</p>

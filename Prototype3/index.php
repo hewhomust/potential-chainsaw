@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+session_start();
+?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -14,7 +16,13 @@
     <div id="header" class="container headerBar">
       <img id="headerImage" src="img/Union.png"/>
       <h1>Union</h1>
-      <p><a id="user" href="user.html">User</a><a id="bar">•</a><a href="login.html">Log In</a></p>
+	  <?php
+	    if(isset($_SESSION['username'])){
+			echo '<p><a id="user" style="visibility: visible" href="user.html">'.$_SESSION["username"].'</a><a id="bar" style="visibility: visible">•</a><a href="logout.php">Log Out</a></p>';
+		} else {
+			echo '<p><a id="user" style="visibility: hidden" href="user.html">User</a><a id="bar" style="visibility: hidden">•</a><a href="login.php">Log In</a></p>';
+		}
+		?>
     </div>
 	  <div id="articleContainer" class="container">
       <div id="mainArticle" class="article standardBox">
