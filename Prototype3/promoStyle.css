@@ -50,7 +50,7 @@ body{
 	position: relative;
 	background-color: white;
 	width: 100%;
-	height: 300px;
+	height: 600px;
 	margin-bottom: 300px;
 	box-shadow: 0px 3px 10px #760B00;
 	padding: 40px;
@@ -65,16 +65,22 @@ body{
 	visibility: hidden;
 }
 
-p, a{
-	margin: 30px 35px;
+p, a, h1{
+	margin: 15px 35px;
 	width: 50%;
 	font-size: 1.2em;
+	font-weight: 300;
+}
+
+h1{
+	font-size: 1.8em;
+	color: #760B00;
+	margin-bottom: 5px;
 }
 
 a{
 	text-decoration: none;
 	color: #760B00;
-	font-size: 1.3em;
 }
 
 .header{
@@ -83,12 +89,37 @@ a{
 	left: 30%;
 }
 
+.indexLink{
+	background-color: transparent;
+	box-shadow: none;
+	height: 300px;
+}
+
+.indexLink a{
+	background-color: white;
+	text-align: center;
+	padding: 30px;
+	box-shadow: 0px 3px 10px #760B00;
+	/* margin: auto; */
+	position: relative;
+	left: 20%;
+	/* top: 240px; */
+	display: inline-block;
+	font-size: 2em;
+	/* cursor: pointer; */
+}
+
+.indexLink a:hover{
+	box-shadow: 0px 6px 10px #760B00;
+}
+
 #headerText{
 	position: relative;
 	left: 30%;
 	top: 0px;
 	color: #760B00;
 	font-size: 17.5em;
+	font-weight: 400;
 	display: inline;
 }
 
@@ -102,5 +133,5 @@ a{
 
 #sparklesImage{
 	height: 1500px;
-	top: 1400px;
+	top: 1300px;
 }
