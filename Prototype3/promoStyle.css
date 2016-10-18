@@ -59,10 +59,11 @@ body{
 .slide img{
 	display: inline;
 	position: relative;
-	left: 60%;
+	right: 5%;
+	float: right;
 	top: -200px;
 	height: 300px;
-	visibility: hidden;
+	/* visibility: hidden; */
 }
 
 p, a, h1{
@@ -90,12 +91,6 @@ a{
 }
 
 .indexLink{
-	background-color: transparent;
-	box-shadow: none;
-	height: 300px;
-}
-
-.indexLink a{
 	background-color: white;
 	text-align: center;
 	padding: 30px;
@@ -103,14 +98,14 @@ a{
 	/* margin: auto; */
 	position: relative;
 	left: 20%;
-	/* top: 240px; */
+	top: 600px;
 	display: inline-block;
 	font-size: 2em;
 	/* cursor: pointer; */
 }
 
-.indexLink a:hover{
-	box-shadow: 0px 6px 10px #760B00;
+.indexLink:hover{
+	box-shadow: 0px 10px 20px #760B00;
 }
 
 #headerText{
@@ -119,7 +114,7 @@ a{
 	top: 0px;
 	color: #760B00;
 	font-size: 17.5em;
-	font-weight: 400;
+	font-weight: 600;
 	display: inline;
 }
 
@@ -134,4 +129,29 @@ a{
 #sparklesImage{
 	height: 1500px;
 	top: 1300px;
+}
+
+.footer{
+	height: 30px;
+	margin-bottom: 0px;
+}
+
+.footer p{
+	width: 95%;
+	font-size: 1em;
+}
+
+.footer p a{
+	margin: 0px;
+	font-size: 1em;
+	width: auto;
+	font-weight: inherit;
+}
+
+.firstSlide{
+	margin-top: 200px;
+}
+
+.lastSlide{
+	margin-bottom: 250px;
 }
