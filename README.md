@@ -60,4 +60,3 @@ Ideas for Types of matricies/scales, possibly apolitical, positive vs negative l
 
 Interaction ideas, methods of rating, implementation of scoring systems
 
-I'm here
