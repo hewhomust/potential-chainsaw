@@ -29,9 +29,19 @@ function startTime() {
     var minutesToGo = addZero(60 - today.getMinutes());
     var secondsToGo = addZero(60 - today.getSeconds());
 
-    document.getElementById('clock').innerHTML = hoursToGo + ":" + minutesToGo
-     + ":" + secondsToGo + " remaining";
-    var timeOut = setTimeout(startTime, 1000);
+    var clock = $('#clock');
+    if(clock.hasClass("clockStarted")){
+      document.getElementById('clock').innerHTML = hoursToGo + ":" + minutesToGo
+      + ":" + secondsToGo + " remaining";
+      var timeOut = setTimeout(startTime, 1000);
+    }else if(clock.hasClass("clockFinished")){
+      document.getElementById('clock').innerHTML = "This discussion is now closed";
+    }else if(clock.hasClass("clockStarting")){
+      document.getElementById('clock').innerHTML = hoursToGo + ":" + minutesToGo
+      + ":" + secondsToGo + " untill discussion is opened.";
+      var timeOut = setTimeout(startTime, 1000);
+    }
+
 }
 
 function addZero(n){
@@ -50,6 +60,15 @@ function upvote(upvoter, number){
 
 function showMatrix(){
   $('#matrixContainer').toggle();
+}
+
+function reply(comment){
+  console.log($("comment:nth-child(3)"));
+  var commentUser = "bob";
+  var siblings = $(comment).siblings();
+  console.log(siblings);
+  var commentUser = siblings[3].children[0].innerHTML;
+  $('#commentInput').val("@" + commentUser + " ");
 }
 
 

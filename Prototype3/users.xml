@@ -16,4 +16,8 @@
     <username>deco3500</username>
     <password>union</password>
   </user>
+  <user>
+    <username>bob</username>
+    <password>123</password>
+  </user>
 </users>

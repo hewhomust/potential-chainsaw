@@ -126,12 +126,21 @@ a{
 #discussionHeader p{
 }
 
+#clock{
+	font-size: 1.5em;
+	color: #FF7267;
+	margin: 0px 10px;
+	position: relative;
+	top: 6px;
+}
+
 .discussion .upvote{
 	margin-right: 0px;
 }
 
-.discussion .downvote, .discussion .upvote{
+.discussion .downvote, .discussion .upvote, .discussion .reply{
 	color: #BE0B00;
+	font-weight: 600;
 }
 
 .discussion .username, .discussion .score{
@@ -159,6 +168,8 @@ a{
 
 .articleHeading{
 	display: inline;
+  text-align: left;
+  font-size: 1.5em;
 }
 
 #matrixContainer{
@@ -186,6 +197,11 @@ a{
 	float: left;
 	left: 42%;
 	top: -8px;
+}
+
+.logInOrOut{
+	color: #BE0B00;
+	margin-left: 20px;
 }
 
 #loginTitle{
@@ -243,7 +259,7 @@ a{
     font-family: 'Open Sans';
     font-size: 0.8em;
     border: 0px solid black;
-		height: 20px;
+		height: 25px;
 		width: 400px;
 		border-bottom: solid 3px #FF7267;
 }
@@ -265,6 +281,31 @@ a{
 
 #newComment .username a:hover{
 	background-color: #BE0B00;
+}
+
+#dateSwitcherContainer{
+	height: 100px;
+}
+
+#dateDisplay{
+	background-color: #fff;
+	height: 50px;
+	width: 450px;
+}
+
+#dateDisplay p{
+	text-align: center;
+	margin: 0px;
+}
+
+#dateDisplay a{
+	font-size: 2.5em;
+	color: #FF7267;
+}
+
+#dateDisplay .date{
+	margin: 0px 80px;
+	color: #BE0B00;
 }
 
 /* Matrix things */

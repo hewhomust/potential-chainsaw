@@ -174,8 +174,8 @@ session_start();
     <div id="dateSwitcherContainer" class="container">
       <div id="dateDisplay" class="standardBox">
         <p>
-          <a href="yesterday.php">◀</a>
-          <a class="date">1/5/2016</a>
+          <a href="index.php">◀</a>
+          <a class="date">2/5/2016</a>
           <a href="tomorrow.php">▶</a>
         </p>
       </div>
@@ -186,22 +186,7 @@ session_start();
         <h1>Discussion</h1>
       </div>
       <div id="newComment" class="discussion standardBox">
-        <p class="username"><a href="">Comment</a></p><input id="commentInput" type="text"/><p id="clock" class="clockStarted">00:00:00</p>
-      </div>
-      <div id="mainDiscussion" class="discussion standardBox">
-        <p class="score">0</p><p class="upvote" onclick="upvote(this, 1)">▲</p><p class="downvote" onclick="upvote(this, -1)">▼</p><p class="reply" onclick="reply(this)">@</p><p class="username"><a href="user.html">jane866</a></p><p onclick="hideChildren(this)">Suspendisse tempus ante lobortis, porttitor purus eget, rutrum lectus. Fusce placerat accumsan odio vel placerat. Mauris vestibulum auctor risus, in placerat justo sollicitudin sit amet. Morbi et quam malesuada justo tincidunt fringilla. </p>
-      </div>
-      <div id="mainDiscussion" class="discussion standardBox">
-        <p class="score">0</p><p class="upvote" onclick="upvote(this, 1)">▲</p><p class="downvote" onclick="upvote(this, -1)">▼</p><p class="reply" onclick="reply(this)">@</p><p class="username"><a href="user.html">fred45674</a></p><p onclick="hideChildren(this)">Phasellus vestibulum velit sed diam rhoncus, ut viverra urna sollicitudin. Nam gravida dui sit amet orci efficitur, vitae euismod magna dictum. Donec non nisi nulla. Vivamus fringilla tristique lectus, nec tincidunt nunc lobortis non. Pellentesque dignissim vel elit eget rhoncus. Integer nec feugiat metus, vel rutrum ante. Integer interdum posuere magna, sed elementum nisl tincidunt sit amet. Nunc a sollicitudin nunc.</p>
-        <div id="mainDiscussion" class="discussion standardBox">
-          <p class="score">0</p><p class="upvote" onclick="upvote(this, 1)">▲</p><p class="downvote" onclick="upvote(this, -1)">▼</p><p class="reply" onclick="reply(this)">@</p><p class="username"><a href="user.html">bill23</a></p><p onclick="hideChildren(this)">In augue augue, malesuada non diam ut, aliquam dictum ante. Etiam aliquet iaculis lorem, a laoreet libero pretium sed.</p>
-          <div id="mainDiscussion" class="discussion standardBox">
-            <p class="score">0</p><p class="upvote" onclick="upvote(this, 1)">▲</p><p class="downvote" onclick="upvote(this, -1)">▼</p><p class="reply" onclick="reply(this)">@</p><p class="username"><a href="user.html">bob1212</a></p><p onclick="hideChildren(this)">Donec eget semper nisi. Vivamus condimentum finibus eros sed ultricies.</p>
-          </div>
-        </div>
-      </div>
-      <div id="mainDiscussion" class="discussion standardBox">
-        <p class="score">0</p><p class="upvote" onclick="upvote(this, 1)">▲</p><p class="downvote" onclick="upvote(this, -1)">▼</p><p class="reply" onclick="reply(this)">@</p><p class="username"><a href="user.html">bob1212</a></p><p onclick="hideChildren(this)">Ut ut rutrum tortor. Nulla at sollicitudin diam, tempus semper nisl. Vivamus non est at massa scelerisque tempus. Phasellus at leo pretium, lacinia sem ut, faucibus est. Etiam turpis dolor, cursus in tincidunt eget, consectetur a est. Proin sollicitudin ligula eget turpis condimentum dapibus.</p>
+        <p class="username"><a href="">Comment</a></p><input id="commentInput" type="text"/><p id="clock" class="clockStarting">00:00:00</p>
       </div>
     </div>
   </body>
