@@ -14,12 +14,14 @@ We have delivered a news source pooling website, which focuses on comparing arti
 
 ## Process
 
-[![Capture.jpg](https://s20.postimg.org/d0kz5yk2l/Capture.jpg)](https://postimg.org/image/g7fipl4ih/)
+[![Capture.png](https://s20.postimg.org/ogvzhqnml/Capture.png)](https://postimg.org/image/dhas64x7d/)
+//caption
 [![Capture2.jpg](https://s20.postimg.org/qirvi8w7x/Capture2.jpg)](https://postimg.org/image/7dom8hhjt/)
+//caption
 [![Capture3.jpg](https://s20.postimg.org/5n5l7000t/Capture3.jpg)](https://postimg.org/image/6codjd0k9/)
+//caption
 
-//explain pics
-//mention limitations and theory
+//explain pics and mention limitations and theory
 
 
 ## Promotional page
