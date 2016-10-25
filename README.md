@@ -16,9 +16,9 @@ We have delivered a news source pooling website, which focuses on comparing arti
 
 [![Capture.png](https://s20.postimg.org/ogvzhqnml/Capture.png)](https://postimg.org/image/dhas64x7d/)
 //caption
-[![Capture2.jpg](https://s20.postimg.org/qirvi8w7x/Capture2.jpg)](https://postimg.org/image/7dom8hhjt/)
+[![Capture1.png](https://s20.postimg.org/6s48q4bvh/Capture1.png)](https://postimg.org/image/ys8caefbt/)
 //caption
-[![Capture3.jpg](https://s20.postimg.org/5n5l7000t/Capture3.jpg)](https://postimg.org/image/6codjd0k9/)
+[![Capture2.png](https://s20.postimg.org/dwm1z5j4t/Capture2.png)](https://postimg.org/image/v9wce0eft/)
 //caption
 
 //explain pics and mention limitations and theory
