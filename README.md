@@ -12,6 +12,16 @@ We arent trying to produce the new all encompassing social media craze, more a h
 
 We have delivered a news source pooling website, which focuses on comparing articles while delivering convienient news. Each day, a single topic will be posted and a number of articles (2-5) on that topic/story will be selected for display. The articles will be taken from all kinds of news sources and rated by a variety of socio/political leanings (using the economic/social progressive/consevative matrix). Complex methods of discussion will be facilitated, including quoting parts of the article, emotional responses, and the ability to build comment threads in various places within an article, as well as a general thread at the end. After 24 hours has passed, the discussion is locked and no further changes can be made.
 
+## Process
+
+[![Capture.jpg](https://s20.postimg.org/d0kz5yk2l/Capture.jpg)](https://postimg.org/image/g7fipl4ih/)
+[![Capture2.jpg](https://s20.postimg.org/qirvi8w7x/Capture2.jpg)](https://postimg.org/image/7dom8hhjt/)
+[![Capture3.jpg](https://s20.postimg.org/5n5l7000t/Capture3.jpg)](https://postimg.org/image/6codjd0k9/)
+
+//explain pics
+//mention limitations and theory
+
+
 ## Promotional page
 
 https://s4291106-union.uqcloud.net/Prototype3/promotional.html
