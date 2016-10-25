@@ -12,9 +12,11 @@
   </head>
   <body>
     <div id="header" class="container headerBar">
-      <img id="headerImage" src="img/Union.png"/>
-      <h1>Union</h1>
-      <p><a href="index.php">Home</a></p>
+      <a href="index.php">
+        <img id="headerImage" src="img/Union.png"/>
+        <h1>Union</h1>
+      </a>
+      <p><a class="logInOrOut" href="index.php">Home</a></p>
     </div>
 	  <div id="articleContainer" class="container">
       <div id="mainArticle" class="article standardBox">
@@ -27,17 +29,18 @@
           <p>Password</p>
           <input id="password" type="password" name="password"/>
 		  <?php
-		  
+
 		  session_start();
 		  if(isset($_SESSION['invalidlogin'])){
 			echo '<p>Username or Password is incorrect</p><br>';
 			unset($_SESSION['invalidlogin']);
 		  }
-		  
+
 		  ?>
           <p></p>
           <input id="loginButton" type="submit" value="Log In"/>
           <p class="smallerText">Or sign up</p>
+          <a href="index.php" class="smallerText">Or browse anonymously</a>
         </form>
       </div>
     </div>
