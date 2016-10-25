@@ -14,17 +14,22 @@ We have delivered a news source pooling website, which focuses on comparing arti
 
 ## Process
 
-//explain process
+The design process started with research, and sketching out some ideas.
+[![20161025_113028.jpg](https://s20.postimg.org/oxh746bdp/20161025_113028.jpg)](https://postimg.org/image/6uo4cyfix/)
+A sketch of the matrix.
+[![20161025_113048.jpg](https://s20.postimg.org/nwgyf1ue5/20161025_113048.jpg)](https://postimg.org/image/mu6rwibkp/)
+A sketch of the articles.
 
+Then we built the site, adding more features as we generated new ideas.
 [![Capture.png](https://s20.postimg.org/ogvzhqnml/Capture.png)](https://postimg.org/image/dhas64x7d/)
 Multiple articles are put side by side, to compare differences and highlight bias. 
 [![Capture1.png](https://s20.postimg.org/6s48q4bvh/Capture1.png)](https://postimg.org/image/ys8caefbt/)
 The compass allows an multi-dimensional method of voting on articles. 
 [![Capture2.png](https://s20.postimg.org/dwm1z5j4t/Capture2.png)](https://postimg.org/image/v9wce0eft/)
 The discussion allows comment voting, replies, and expanding and collapsing comments.
+Having one discussion 'unlocked' per day encourages users to participate while they still can, and prevents discussion from being sparsely spread across different pages of the site. However, this limits a user's ability to participate in whichever discussion whenever they like.
 
-//explain pics and mention limitations and theory
-
+Finally we did some user testing, and iterated the site accordingly.
 
 ## Promotional page
 
