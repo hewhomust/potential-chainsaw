@@ -21,14 +21,14 @@ https://s4291106-union.uqcloud.net/Prototype3/promotional.html
 https://s4291106-union.uqcloud.net/Prototype3/index.php
 
 ### How to use:
-Click the login button in the top right and login with the username 'bob' and password '123'.
-Click on an article that is underneath the centered article, to center it.
-Click on the matrix icon on the top right of the article, then click on five or six different squares to see the matrix calculate an avareage vote.
-Click on a comment, or a reply, with replies to collapse it, and again to expand it.
-Click on the up or down arrows on a comment to vote on it.
-Click on the '@' sign on a comment to open a reply to it.
-Click on 'log out' in the top right corner to log out.
-Click on a username to see their profile.
+ 1. Click the login button in the top right and login with the username 'bob' and password '123'.
+ 2. Click on an article that is underneath the centered article, to center it.
+ 3. Click on the matrix icon on the top right of the article, then click on five or six different squares to see the matrix calculate an avareage vote.
+ 4. Click on a comment, or a reply, with replies to collapse it, and again to expand it.
+ 5. Click on the up or down arrows on a comment to vote on it.
+ 6. Click on the '@' sign on a comment to open a reply to it.
+ 6. Click on 'log out' in the top right corner to log out.
+ 7. Click on a username to see their profile.
 
 ## User Interaction
 Users must register to post or vote but anyone may view the articles and discussion. Once registered, they can log in from the login page.
