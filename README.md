@@ -14,12 +14,14 @@ We have delivered a news source pooling website, which focuses on comparing arti
 
 ## Process
 
+//explain process
+
 [![Capture.png](https://s20.postimg.org/ogvzhqnml/Capture.png)](https://postimg.org/image/dhas64x7d/)
-//caption
+Multiple articles are put side by side, to compare differences and highlight bias. 
 [![Capture1.png](https://s20.postimg.org/6s48q4bvh/Capture1.png)](https://postimg.org/image/ys8caefbt/)
-//caption
+The compass allows an multi-dimensional method of voting on articles. 
 [![Capture2.png](https://s20.postimg.org/dwm1z5j4t/Capture2.png)](https://postimg.org/image/v9wce0eft/)
-//caption
+The discussion allows comment voting, replies, and expanding and collapsing comments.
 
 //explain pics and mention limitations and theory
 
