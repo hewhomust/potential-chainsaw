@@ -30,7 +30,7 @@ The discussion allows comment voting, replies, and expanding and collapsing comm
 Having one discussion 'unlocked' per day encourages users to participate while they still can, and prevents discussion from being sparsely spread across different pages of the site. However, this limits a user's ability to participate in whichever discussion whenever they like.
 
 Finally we did some user testing, and iterated the site accordingly.
-[![20161027_090351.jpg](http://s20.postimg.org/ixyhxmwwt/20161027_090351.jpg)](http://postimg.org/image/sii4kim8p/)[![20161027_090404.jpg](http://s20.postimg.org/i9pneoy71/20161027_090404.jpg)](http://postimg.org/image/n8d5t81zt/)
+[![User testing.png](http://s20.postimg.org/jd9rqniu5/User_testing.png)](http://postimg.org/image/fgwfunxuh/)
 
 ## Promotional page
 
