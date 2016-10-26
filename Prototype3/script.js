@@ -18,7 +18,8 @@ $(document).ready(function(){
 
 function hideChildren(sibling){
   if($(sibling).siblings().length > 4){
-    $(sibling).siblings().last().toggle();
+    //$(sibling).siblings().last().toggle();
+    $(sibling).siblings().last().toggleClass('toggled');
     $(sibling).parent().toggleClass('toggled');
   }
 }

@@ -186,7 +186,7 @@ session_start();
         <h1>Discussion</h1>
       </div>
       <div id="newComment" class="discussion standardBox">
-        <p class="username"><a href="">Comment</a></p><input id="commentInput" type="text"/><p id="clock" class="clockStarting">00:00:00</p>
+        <p class="username"><a href="">Comment</a></p><input id="commentInput" type="text" placeHolder="Add a comment here"/><p id="clock" class="clockStarting">00:00:00</p>
       </div>
     </div>
   </body>
