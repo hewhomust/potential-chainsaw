@@ -21,25 +21,65 @@
   <user>
     <username>deco3500</username>
     <password>union</password>
-	<xval>3</xval>
-	<yval>6</yval>
+	<xval>8</xval>
+	<yval>2</yval>
   </user>
   <user>
     <username>bob</username>
     <password>123</password>
-	<xval>3</xval>
-	<yval>6</yval>
+	<xval>5</xval>
+	<yval>0</yval>
   </user>
-    <user>
+  <user>
     <username>bob1212</username>
     <password>123</password>
-	<xval>3</xval>
-	<yval>6</yval>
+	<vote>
+		<xval>6</xval>
+		<yval>9</yval>
+	</vote>
+	<vote>
+		<xval>7</xval>
+		<yval>8</yval>
+	</vote>
+	<vote>
+		<xval>5</xval>
+		<yval>9</yval>
+	</vote>
+	<vote>
+		<xval>3</xval>
+		<yval>8</yval>
+	</vote>
   </user>
     <user>
     <username>jane866</username>
     <password>123</password>
-	<xval>3</xval>
-	<yval>6</yval>
+	<vote>
+		<xval>1</xval>
+		<yval>2</yval>
+	</vote>
+	<vote>
+		<xval>5</xval>
+		<yval>6</yval>
+	</vote>
+	<vote>
+		<xval>3</xval>
+		<yval>7</yval>
+	</vote>
+	<vote>
+		<xval>2</xval>
+		<yval>9</yval>
+	</vote>
+  </user>
+  <user>
+    <username>bill23</username>
+    <password>123</password>
+	<xval>5</xval>
+	<yval>0</yval>
+  </user>
+  <user>
+    <username>fred45674</username>
+    <password>123</password>
+	<xval>1</xval>
+	<yval>2</yval>
   </user>
 </users>

@@ -120,10 +120,7 @@ function reply(comment){
   $('#commentInput').val("@" + commentUser + " ");
 }
 
-
-
 // matrix things
-
 var rows = [];
 var columns = [];
 
@@ -188,7 +185,14 @@ function loadUserXML(doc, user){
 	var xmlUser = xmlUsers.getElementsByTagName('user');
 	for(var i=0; i < xmlUser.length; i++){
 		if(xmlUser[i].getElementsByTagName('username')[0].childNodes[0].nodeValue == user){
-			choose(document.getElementById('userMatrixContainer'), xmlUser[i].getElementsByTagName('xval')[0].childNodes[0].nodeValue, xmlUser[i].getElementsByTagName('yval')[0].childNodes[0].nodeValue);
+			for(var j=0; j < xmlUser[i].getElementsByTagName('vote').length; j++) {
+			
+				var xval = parseInt(xmlUser[i].getElementsByTagName('vote')[j].getElementsByTagName('xval')[0].childNodes[0].nodeValue);
+				var yval = parseInt(xmlUser[i].getElementsByTagName('vote')[j].getElementsByTagName('yval')[0].childNodes[0].nodeValue);
+				choose(document.getElementById('userMatrixContainer'), xval, yval);
+
+				$(document.getElementById('userMatrixContainer').getElementsByTagName('table')[0].getElementsByTagName('tr')[xval].getElementsByTagName('td')[yval]).attr("class", "chosen");
+			}
 		}
 	}
 }
