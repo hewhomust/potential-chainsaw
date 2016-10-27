@@ -10,7 +10,6 @@ session_start();
     <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans:300,400" rel="stylesheet">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="script.js" type="text/javascript"></script>
-	<script src="getArticles.js" type="text/javascript"></script>
   </head>
   <body onLoad="start()">
     <div id="header" class="container headerBar">
