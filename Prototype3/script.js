@@ -61,6 +61,7 @@ function upvote(upvoter, number){
 
 function showMatrix(){
   $('#matrixContainer').toggle();
+  $('.matrixIcon').toggleClass('clicked');
 }
 
 function reply(comment){

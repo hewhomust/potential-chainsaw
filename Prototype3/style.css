@@ -76,7 +76,7 @@ a{
 	cursor: pointer;
 }
 
-.discussion.toggled{
+.discussion.toggled, .discussion:hover{
 	border-left-width: 6px;
 	margin-left: 27px;
 }
@@ -168,6 +168,10 @@ a{
 	right: 10px;
 	position: relative;
 	color: #FF7267;
+}
+
+.matrixIcon:hover, .clicked{
+	color: #BE0B00;
 }
 
 .articleHeading{
@@ -263,9 +267,12 @@ a{
     font-family: 'Open Sans';
     font-size: 0.8em;
     border: 0px solid black;
-		height: 25px;
+		height: 28px;
 		width: 65%;
 		border-bottom: solid 3px #FF7267;
+		position: relative;
+		top: -2px;
+		padding: 10px;
 }
 
 #newComment{
@@ -307,9 +314,17 @@ a{
 	color: #FF7267;
 }
 
+#dateDisplay a:hover{
+	color: #BE0B00;
+}
+
 #dateDisplay .date{
 	margin: 0px 80px;
 	color: #BE0B00;
+}
+
+input:focus{
+	outline-color: rgba(255, 114, 103, 0.5);
 }
 
 /* Matrix things */

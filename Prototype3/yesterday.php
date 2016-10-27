@@ -29,7 +29,7 @@ session_start();
 	  <div id="articleContainer" class="container">
       <div id="mainArticle" class="article standardBox">
         <h1 id="mainArticleTitle" class="articleHeading" ></h1>
-        <a class="matrixIcon" onclick="showMatrix()">▦</a>
+        <a class="matrixIcon clicked" onclick="showMatrix()">▦</a>
         <p id="mainArticleText" class="articleText"></p>
       </div>
       <div id="sub1Article" class="article standardBox" style="left:300px;top:-400px;">
