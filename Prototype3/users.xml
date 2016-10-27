@@ -15,8 +15,22 @@
   <user>
     <username>a</username>
     <password>1</password>
-	<xval>3</xval>
-	<yval>6</yval>
+	<vote>
+		<xval>1</xval>
+		<yval>1</yval>
+	</vote>
+	<vote>
+		<xval>2</xval>
+		<yval>2</yval>
+	</vote>
+	<vote>
+		<xval>3</xval>
+		<yval>3</yval>
+	</vote>
+	<vote>
+		<xval>4</xval>
+		<yval>4</yval>
+	</vote>
   </user>
   <user>
     <username>deco3500</username>
@@ -73,13 +87,17 @@
   <user>
     <username>bill23</username>
     <password>123</password>
-	<xval>5</xval>
-	<yval>0</yval>
+	<vote>
+		<xval>5</xval>
+		<yval>0</yval>
+	</vote>
   </user>
   <user>
     <username>fred45674</username>
     <password>123</password>
-	<xval>1</xval>
-	<yval>2</yval>
+	<vote>
+		<xval>1</xval>
+		<yval>2</yval>
+	</vote>
   </user>
 </users>

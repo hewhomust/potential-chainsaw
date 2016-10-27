@@ -19,9 +19,9 @@ session_start();
       </a>
 	  <?php
 	    if(isset($_SESSION['username'])){
-			echo '<p><a id="user" style="visibility: visible" href="user.html">'.$_SESSION["username"].'</a><a class="logInOrOut" href="logout.php">Log Out</a></p>';
+			echo '<p><a id="user" style="visibility: visible" href="user.php">'.$_SESSION["username"].'</a><a class="logInOrOut" href="logout.php">Log Out</a></p>';
 		} else {
-			echo '<p><a id="user" style="visibility: hidden" href="user.html">User</a><a class="logInOrOut" href="login.php">Log In</a></p>';
+			echo '<p><a id="user" style="visibility: hidden" href="user.php">User</a><a class="logInOrOut" href="login.php">Log In</a></p>';
 		}
 		?>
     </div>

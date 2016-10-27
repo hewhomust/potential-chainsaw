@@ -191,7 +191,7 @@ function loadUserXML(doc, user){
 				var yval = parseInt(xmlUser[i].getElementsByTagName('vote')[j].getElementsByTagName('yval')[0].childNodes[0].nodeValue);
 				choose(document.getElementById('userMatrixContainer'), xval, yval);
 
-				$(document.getElementById('userMatrixContainer').getElementsByTagName('table')[0].getElementsByTagName('tr')[xval].getElementsByTagName('td')[yval]).attr("class", "chosen");
+				document.getElementById('userMatrixContainer').getElementsByTagName('table')[0].getElementsByTagName('tr')[xval].getElementsByTagName('td')[yval].classList.add('chosen');
 			}
 		}
 	}
