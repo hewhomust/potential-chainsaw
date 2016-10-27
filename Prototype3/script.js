@@ -1,23 +1,16 @@
-function startUser(){
-  start();
-  loadUser();
+function startUser(user){
+  startTime();
+  showMatrix();
+  loadUser(user);
 }
 
 function start(){
   startTime();
   showMatrix();
+  loadArticles();
 }
 
 $(document).ready(function(){
-	var articleDoc = new XMLHttpRequest();
-	articleDoc.onreadystatechange = function(){
-		if(articleDoc.readyState == 4 && articleDoc.status == 200){
-			loadArticlesXML(articleDoc);
-		}
-	};
-	articleDoc.open("GET", "articles.xml", true);
-	articleDoc.send();
-	
     $(".article").click(function(){
   		var newH = $(this).children("h1").text();
   		var newP = $(this).children("p").text();
@@ -29,6 +22,17 @@ $(document).ready(function(){
   		$("#mainArticle").children("p").text(newP);
     });
 });
+
+function loadArticles() {
+	var articleDoc = new XMLHttpRequest();
+	articleDoc.onreadystatechange = function(){
+		if(articleDoc.readyState == 4 && articleDoc.status == 200){
+			loadArticlesXML(articleDoc);
+		}
+	};
+	articleDoc.open("GET", "articles.xml", true);
+	articleDoc.send();
+}
 
 function findArticleOffset(){
 	var clock = $('#clock');
@@ -127,7 +131,7 @@ function choose(cell, row, column){
 	cell.classList.add('chosen');
 	rows.push(row);
 	columns.push(column);
-	console.log('!!!Recieved a click!!!')
+	console.log('!!!Recieved a click!!!');
 	console.log('Rows: ' + rows + '    Columns: ' + columns);
 	var averageRow = calculateAverageRow();
 	var averageCol = calculateAverageCol();
@@ -168,6 +172,24 @@ function removeAverage(){
 	}
 }
 
-function loadUser(){
-	
+function loadUser(user){
+	var userDoc = new XMLHttpRequest();
+	userDoc.onreadystatechange = function(){
+		if(userDoc.readyState == 4 && userDoc.status == 200){
+			loadUserXML(userDoc, user);
+		}
+	};
+	userDoc.open("GET", "users.xml", true);
+	userDoc.send();
 }
+
+function loadUserXML(doc, user){
+	var xmlUsers = doc.responseXML;
+	var xmlUser = xmlUsers.getElementsByTagName('user');
+	for(var i=0; i < xmlUser.length; i++){
+		if(xmlUser[i].getElementsByTagName('username')[0].childNodes[0].nodeValue == user){
+			choose(document.getElementById('userMatrixContainer'), xmlUser[i].getElementsByTagName('xval')[0].childNodes[0].nodeValue, xmlUser[i].getElementsByTagName('yval')[0].childNodes[0].nodeValue);
+		}
+	}
+}
+

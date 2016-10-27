@@ -3,21 +3,43 @@
   <user>
     <username>dlangton</username>
     <password>deco3500union</password>
+	<xval>3</xval>
+	<yval>6</yval>
   </user>
   <user>
     <username>potentialchainsaw</username>
     <password>unionprototype</password>
+	<xval>3</xval>
+	<yval>6</yval>
   </user>
   <user>
     <username>a</username>
     <password>1</password>
+	<xval>3</xval>
+	<yval>6</yval>
   </user>
   <user>
     <username>deco3500</username>
     <password>union</password>
+	<xval>3</xval>
+	<yval>6</yval>
   </user>
   <user>
     <username>bob</username>
     <password>123</password>
+	<xval>3</xval>
+	<yval>6</yval>
+  </user>
+    <user>
+    <username>bob1212</username>
+    <password>123</password>
+	<xval>3</xval>
+	<yval>6</yval>
+  </user>
+    <user>
+    <username>jane866</username>
+    <password>123</password>
+	<xval>3</xval>
+	<yval>6</yval>
   </user>
 </users>
