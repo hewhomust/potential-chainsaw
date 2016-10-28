@@ -41,14 +41,15 @@ https://s4291106-union.uqcloud.net/Prototype3/promotional.html
 https://s4291106-union.uqcloud.net/Prototype3/index.php
 
 ### How to use:
- 1. Click the login button in the top right and login with the username 'bob' and password '123'.
+ 1. Click the login button in the top right and login with the username 'deco3500' and password 'union'.
  2. Click on an article that is underneath the centered article, to center it.
  3. Click on the matrix icon on the top right of the article, then click on five or six different squares to see the matrix calculate an avareage vote.
  4. Click on a comment, or a reply, with replies to collapse it, and again to expand it.
  5. Click on the up or down arrows on a comment to vote on it.
  6. Click on the '@' sign on a comment to open a reply to it.
- 6. Click on 'log out' in the top right corner to log out.
- 7. Click on a username to see their profile.
+ 7. Click on your username in the top right to see your own profile and matrix.
+ 8. Click on 'log out' in the top right corner to log out.
+ 9. Click on any username in the comments to see their profile.
 
 ## User Interaction
 Users must register to post or vote but anyone may view the articles and discussion. Once registered, they can log in from the login page.
@@ -64,7 +65,7 @@ Articles also have a matrix based upon votes from the users.
 
 ### Dean Langton - 42911067 - IT, Web development and programming.
 
-Worked on the back end of the site, allowing articles and users to be imported through xml, and building a account log in system.
+Worked on the back end of the site, allowing articles and users to be imported through xml, and building an account log in system using PHP to handle session data for logged in users.
 
 ### Clancy O'Reilly - 43709672 - IT, Research and coordination 
 
