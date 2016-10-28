@@ -35,7 +35,14 @@ session_start();
         </div>
 
         <div id="userMatrixContainer">
-          <table>
+          <div class="axisLabels">
+            <p style="left: 34px;top: -30px;">Rating Matrix</p>
+            <p style="left: 50px;top: -38px; visibility: hidden;">Axis One</p>
+            <p style="left: -110px;top: 47px;" class="rotatedOpposite">Libertatian - Authoritarian</p>
+            <p style="left: 179px;top: 9px; visibility: hidden;" class="rotated">Axis Three</p>
+            <p style="left: 50px;top: 122px;">Economic Left - Economic Right</p>
+          </div>
+          <table style="position: relative;left: 15px;">
             <tr>
               <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
             </tr>

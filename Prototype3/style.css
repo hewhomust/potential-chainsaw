@@ -185,12 +185,14 @@ a{
 	border-top: 3px solid #FF7267;
 	height: 300px;
 	overflow: visible;
+	height: 323px;
+	width: 322px;
 }
 
 .arrow-up {
 	position: relative;
 	top: -25px;
-	right: -290px;
+	right: -302px;
 	width: 0;
 	height: 0;
 	border-left: 10px solid transparent;
@@ -351,4 +353,38 @@ table{
   margin-top: 5px;
   margin-bottom: 5px;
   float: left;
+}
+
+.axisLabels{
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+}
+
+.axisLabels p{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	width: 230px;
+	text-align: center;
+	color: #BE0B00;
+}
+
+.axisLabels p:first-of-type{
+	font-size: 1.2em;
+}
+
+.rotated {
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.rotatedOpposite {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }

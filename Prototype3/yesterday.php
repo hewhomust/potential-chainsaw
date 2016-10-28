@@ -42,7 +42,14 @@ session_start();
       <div id="matrixContainer" class="standardBox" style="left:27px;top:-1230px">
         <div class="arrow-up"></div>
 
-        <table>
+        <div class="axisLabels">
+          <p style="left: 45px;top: -30px;">Rating Matrix</p>
+          <p style="left: 50px;top: -38px; visibility: hidden;">Axis One</p>
+          <p style="left: -110px;top: 47px;" class="rotatedOpposite">Libertatian - Authoritarian</p>
+          <p style="left: 179px;top: 9px; visibility: hidden;" class="rotated">Axis Three</p>
+          <p style="left: 50px;top: 122px;">Economic Left - Economic Right</p>
+        </div>
+        <table style="position: relative;left: 15px;">
           <tr>
             <td onclick="choose(this, 0, 0)"></td>
             <td onclick="choose(this, 0, 1)"></td>
