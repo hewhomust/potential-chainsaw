@@ -1,0 +1,183 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #333;
+    padding-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+h4 {
+    line-height: 26px;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+hr {
+    border-color: #dedede;
+}
+
+.navbar-default {
+    background-color: #BE0B00;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    padding: 20px 0px 5px 0px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-nav > li > a {
+    padding-top: 20px;
+    padding-bottom: 21px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.navbar-nav > li:hover {
+    background-color: #000;
+}
+
+#site-header {
+    background-color: #a70a0a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: #696969 solid 3px;
+}
+
+#site-header ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#site-header h1 {
+    margin-top: 30px;
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+#site-header h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#site-header h3 {
+    color: white;
+    font-size: 30px;
+}
+
+#site-header h4 {
+    color: white;
+    font-size: 24px;
+}
+
+#site-header h5 {
+    color: white;
+    font-size: 18px;
+}
+
+.signup-form {
+    margin-top: 30px;
+}
+
+.content-section {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.content-section h2 {
+    color: #760B00;
+    font-weight: 700;
+}
+
+.content-section h3 {
+    color: #760B00;
+    font-weight: 400;
+}
+
+.content-section img {
+    width: 700px;
+    border: 3px ridge #021a40;
+}
+
+.content-section figcaption {
+    color: #760B00;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content-section p {
+    font-size: 16px;
+}
+
+#usermatrix {
+    margin-top: 30px;
+    height: 400px;
+}
+
+.separator {
+    background-color: #a70a0a;
+    height: 70px;
+}
+
+.footer {
+    background-color: #a70a0a;
+    height: 200px;
+}
+
+.indexLink {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 3px 10px #760B00;
+    /* margin: auto; */
+    display: inline-block;
+    font-size: 2em;
+    color: #760B00;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /* cursor: pointer; */
+}
+
+.indexLink:hover {
+    box-shadow: 0px 10px 20px #760B00;
+    text-decoration: none;
+    color: #760B00;
+}
+
+.indexLink a {
+    vertical-align: middle;
+}
