@@ -34,7 +34,7 @@ Finally we did some user testing, and iterated the site accordingly.
 
 ## Promotional page
 
-https://s4291106-union.uqcloud.net/Prototype3/promotional.html
+http://registrar-deer-58253.bitballoon.com/
 
 ## Main site
 
